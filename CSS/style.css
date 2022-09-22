@@ -246,7 +246,7 @@ p{
   display: block;
   margin-left: -6px;
 }
-.slider .owl-item.active.center .slider-card{
+/*.slider .owl-item.active.center .slider-card{
   transform: scale(1.51,1.1);
   opacity: 1;
   display: flex;
@@ -255,17 +255,8 @@ p{
 .slider-card{
   transform: scale(1.1,1.1);
   opacity: .3;
-}
-.owl-theme .owl-dots .owl-dot span {
-  background: #3f6602;
-}
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-  background: #ffe001!important;
-}
-.owl-theme .owl-nav.disabled + .owl-dots {
-  margin-top: 40px;
-}
+}*/
+
 
 /*========================
  trying section-04 CSS{
