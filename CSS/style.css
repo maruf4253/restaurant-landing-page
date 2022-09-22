@@ -1,0 +1,428 @@
+/*========================
+      Global  Font CSS 
+=========================*/
+@import url('http://fonts.cdnfonts.com/css/hello-america');               
+@import url('http://fonts.cdnfonts.com/css/brich');
+@import url('http://fonts.cdnfonts.com/css/comica-brush');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/*========================
+  `     Global CSS 
+=========================*/
+body{
+  
+}
+h1{
+  font-family: 'Brich', sans-serif;
+  font-size: 26px;
+  color: #3f6602;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+
+/*========================
+ header section-00 CSS
+=========================*/
+.header-section{
+  padding: 0;
+  margin-bottom: -122px;
+  margin-top: 30px;
+}
+.navbar.navbar-expand-lg {
+  padding: 0;
+}
+.header-section img{
+  background-color: #679f10;
+  margin-left: -12px;
+  width: 12%;
+}
+.navbar-expand-lg .navbar-collapse {
+  margin-right: -10px;
+  margin-top: 60px;
+}
+.header-section .navbar-expand-lg .navbar-nav .yellow{
+  color: #000;
+  margin-right: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px 0px;
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.header-section .navbar-expand-lg .navbar-nav .yellow:hover {
+  color: #000;
+  padding: 0px 0px;
+  border-bottom: 2px solid #ccb301;
+  transition: all 0.3s ease-in-out;
+}
+.header-section .navbar-expand-lg .navbar-nav .green{
+  color: #000;
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px 0px;
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.header-section .navbar-expand-lg .navbar-nav .green:hover {
+  color: #000;
+  padding: 0px 0px;
+  border-bottom: 2px solid #ccb301;
+  transition: all 0.3s ease-in-out;
+}
+
+  
+/*========================
+  banner section-01 CSS
+=========================*/
+.banner-section{
+  background: url(../image/Rest01.png) no-repeat center top;
+  padding: 170px  0;
+  background-size: cover;
+}
+.banner-section .row01{
+  margin: 0px;
+  padding: 0;
+}
+.banner-section .col101{
+  padding: 0;
+  margin-left: 49px;
+  margin-top: 34px;
+}
+.banner-section .col101 img{
+  width: 70%;
+}
+.banner-section .col501{
+  padding: 0;
+  margin-left: -28px;
+  margin-top: 39px;
+}
+.banner-section h2{
+  font-family: 'Hello America', sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  margin-top: -19px;
+  margin-left: 0px;
+}
+.banner-section h1{
+  font-family: 'Comica Brush', sans-serif;
+  font-size: 53px;
+  margin-left: 0px;
+  margin-top: 15px;
+}
+.banner-section .p-div{
+  border-bottom: 1px solid #ccb301;
+  width: 70%;
+  height: 10%;
+  margin-left: 0px;
+  text-align: center;
+  margin-top: 20px;
+}
+.banner-section .p-one{
+  font-family: 'Hello America', sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: bold;
+  float: right;
+}
+.banner-section .a-div{
+  margin-left: 62px;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+.banner-section a{
+  background: #ffe001;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 7px 21px;
+  border: 2px solid #3f6602;
+  color: #3f6602;
+  transition: all 0.3s ease-in-out;
+}
+.banner-section a:hover{
+  background: -webkit-linear-gradient(left, #679f10, #a1dd44, #679f10, #a1dd44);
+  border: 2px solid #ccb301;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.banner-section .p-two{
+  font-family: 'Brich', sans-serif;
+  font-size: 26px;
+  margin-left: 26px;
+}
+
+
+/*========================
+ chose section-02 CSS
+=========================*/
+.chose-section{
+  padding: 40px 0 80px;
+  background: #fff;
+}
+.chose-section .row01 p{
+  margin-top: 10px;
+  margin-bottom: 110px;
+}
+.chose-section .col10{
+ text-align: center;
+}
+.chose-section .contain02{
+  padding: 10px;
+  background: #e8e6a9;
+  border-bottom: 10px solid #3f6602;
+}
+.chose-section .row02:hover  .img-one,
+.chose-section .row02:hover  .img-two,
+.chose-section .row02:hover  .img-three{
+  transform: scale(1.2,1.2);
+  transition: all 0.3s ease-in-out;
+}
+.chose-section .row02 img{
+  width: 80%;
+  margin-top: -90px;
+  margin-bottom: -90px;
+  margin-left: 36px;
+  transition: all 0.3s ease-in-out;
+}
+.chose-section .row03{
+  margin-top: 80px;
+}
+.chose-section .row03 .col-lg{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.chose-section .row03 h2{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.chose-section .row03 p{
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.chose-section .row03 a{
+  padding: 4px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  background: #fff;
+  color: #3f6602;
+  border: 2px solid #3f6602;
+  transition: all 0.3s ease-in-out;
+}
+.chose-section .row03 a:hover{
+  background: -webkit-linear-gradient(left, #679f10, #a1dd44, #679f10, #a1dd44);
+  border: 2px solid #ccb301;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/*========================
+ event section-03 CSS
+=========================*/
+.event-section{
+  padding-left: 40px 0 80px;
+  background: #fff;
+}
+.event-section .row01 .p-one{
+ font-weight: bold;
+ margin-bottom: 5px;
+}
+.event-section .row01{
+  text-align: center;
+ }
+.event-section .row01 p{
+  margin-top: 10px;
+  margin-bottom: 55px;
+}
+.event-section .row02 img{
+  display: block;
+  margin-left: -6px;
+}
+.slider .owl-item.active.center .slider-card{
+  transform: scale(1.51,1.1);
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+.slider-card{
+  transform: scale(1.1,1.1);
+  opacity: .3;
+}
+.owl-theme .owl-dots .owl-dot span {
+  background: #3f6602;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #ffe001!important;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 40px;
+}
+
+/*========================
+ trying section-04 CSS{
+=========================*/
+.trying-section{
+  padding: 60px 0 60px;
+  background: #fff;
+}
+.trying-section .col601 img{
+  width: 100%;
+}
+.trying-section .col602 .img01{
+  width: 100%;
+}
+.trying-section .col602 .img02{
+  width: 100%;
+  margin-top: 16px;
+}
+
+
+
+/*========================
+   booking section-04 CSS
+=========================*/
+.booking-section{
+  background: #fff;
+  padding: 30px 0 40px;
+}
+.booking-section .row01{
+  text-align: center;
+}
+.booking-section .row01 h1{
+  margin-bottom: 40px;
+}
+.booking-section .input-field01,
+.booking-section .input-field02{
+  display: flex;
+  flex-direction: column;
+}
+.booking-section .input-field01 input,
+.booking-section .input-field02 input{
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  outline: 0;
+}
+.booking-section .input-field02 a{
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 40px;
+  background: #fff;
+  color: #3f6602;
+  border: 2px solid #3f6602;
+  transition: all 0.3s ease-in-out;
+}
+.booking-section .input-field02 a:hover{
+  background: -webkit-linear-gradient(left, #679f10, #a1dd44, #679f10, #a1dd44);
+  border: 2px solid #ccb301;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/*========================
+  footer section-04 CSS
+=========================*/
+.footer-section{
+  position: relative;
+  padding: 120px 0 280px;
+  background: url(../image/R131313.png) no-repeat center top;
+  background-size: cover;
+  overflow: hidden;
+} 
+.footer-section .hovere-item{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: -100%;
+   left: 0;
+   background: rgba(0, 0, 0, .8);
+   transition: all 0.9s ease-in-out;
+}
+.footer-section:hover .hovere-item{
+  top: 0;
+  transition: all 0.9s ease-in-out;
+}
+.footer-section p{
+  color: #fff;
+}
+.footer-section .fa{
+  background: #fff;
+  padding: 10px 12px;
+  margin-right: 5px;
+  font-size: 20px;
+  border-radius: 50%;
+  color: #3f6602;
+  transition: all 0.3s ease-in-out;
+}
+.footer-section .fa:hover{
+  color: #ffe001;
+  transition: all 0.3s ease-in-out;
+}
+.footer-section .row01 .col12{
+  margin-bottom: 30px;
+}
+.footer-section .row01 .col12 img{
+  width: 12%;
+  margin-left: 65px;
+  margin-top: 30px;
+}
+.footer-section .row02{
+  margin-bottom: 60px;
+}
+.footer-section .row02 .col601 p{
+  margin-left: 65px;
+}
+.footer-section .row02 .col401 p{
+  margin: 0;
+  margin-top: -7px;
+  margin-left: -40px;
+}
+.footer-section .row02 .col401 .map-p{
+  margin-left: -42px;
+}
+.footer-section .row02 .col401 .fa{
+  margin-left: -26px;
+  background: transparent;
+  font-size: 22px;
+  color: #3f6602;
+  transition: all 0.3s ease-in-out;
+}
+.footer-section .row02 .col401 .fa-map-marker{
+  margin-left: -22px;
+  padding: 10px 16px;
+}
+.footer-section .row02 .col401 .fa:hover{
+  color: #ffe001;
+  transition: all 0.3s ease-in-out;
+}
+.footer-section .row03{
+  float: right;
+}
+.footer-section .row03 .col12{
+  padding-right: 60px;
+}
+.footer-section .row03 .col12 .fa-facebook{
+  padding: 10px 14px;
+}
+.footer-section .row03 .col12 .fa-phone{
+  padding: 10px 13px;
+}
+
+
+
+
+@media (min-width:320px) and (max-width:576px) {
+
+}
